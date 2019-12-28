@@ -1,6 +1,6 @@
 # GeometryFighter
 Fruit ninja-like game made with SceneKit
 
-![App Screenshots](GeometryFighter/Screenshots/start.png)
-![](GeometryFighter/Screenshots/progress.png)
-![](GeometryFighter/Screenshots/gameover.png)
+![App Screenshots](GeometryFighter/Screenshots/start.PNG)
+![](GeometryFighter/Screenshots/progress.PNG)
+![](GeometryFighter/Screenshots/gameover.PNG)
