@@ -17,9 +17,6 @@
 		1C17AEA423B782F000294706 /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 1C17AEA223B782F000294706 /* Trail.scnp */; };
 		1C17AEA523B782F000294706 /* Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 1C17AEA323B782F000294706 /* Explode.scnp */; };
 		1C17AEC723B7DA3F00294706 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C17AEC623B7DA3F00294706 /* spark.png */; };
-		1C17AECC23B7E38C00294706 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C17AEC923B7E38C00294706 /* gameover.png */; };
-		1C17AECD23B7E38C00294706 /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C17AECA23B7E38C00294706 /* progress.png */; };
-		1C17AECE23B7E38C00294706 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C17AECB23B7E38C00294706 /* start.png */; };
 		1C5F978323B3E8E80032AEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F978223B3E8E80032AEDB /* AppDelegate.swift */; };
 		1C5F978723B3E8E80032AEDB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F978623B3E8E80032AEDB /* GameViewController.swift */; };
 		1C5F978A23B3E8E80032AEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5F978823B3E8E80032AEDB /* Main.storyboard */; };
@@ -40,9 +37,6 @@
 		1C17AEA223B782F000294706 /* Trail.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Trail.scnp; sourceTree = "<group>"; };
 		1C17AEA323B782F000294706 /* Explode.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explode.scnp; sourceTree = "<group>"; };
 		1C17AEC623B7DA3F00294706 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
-		1C17AEC923B7E38C00294706 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
-		1C17AECA23B7E38C00294706 /* progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress.png; sourceTree = "<group>"; };
-		1C17AECB23B7E38C00294706 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
 		1C5F977F23B3E8E80032AEDB /* GeometryFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5F978223B3E8E80032AEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C5F978623B3E8E80032AEDB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -89,16 +83,6 @@
 			path = Particles;
 			sourceTree = "<group>";
 		};
-		1C17AEC823B7E38100294706 /* Screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				1C17AEC923B7E38C00294706 /* gameover.png */,
-				1C17AECA23B7E38C00294706 /* progress.png */,
-				1C17AECB23B7E38C00294706 /* start.png */,
-			);
-			path = Screenshots;
-			sourceTree = "<group>";
-		};
 		1C5F977623B3E8E80032AEDB = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +102,6 @@
 		1C5F978123B3E8E80032AEDB /* GeometryFighter */ = {
 			isa = PBXGroup;
 			children = (
-				1C17AEC823B7E38100294706 /* Screenshots */,
 				1C17AEA123B7820000294706 /* Particles */,
 				1C17AE9223B7757500294706 /* GameUtils */,
 				1C5F978223B3E8E80032AEDB /* AppDelegate.swift */,
@@ -191,15 +174,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C17AECE23B7E38C00294706 /* start.png in Resources */,
 				1C17AEA423B782F000294706 /* Trail.scnp in Resources */,
 				1C5F978F23B3E8E90032AEDB /* LaunchScreen.storyboard in Resources */,
 				1C5F978C23B3E8E90032AEDB /* Assets.xcassets in Resources */,
 				1C17AEC723B7DA3F00294706 /* spark.png in Resources */,
 				1C5F978A23B3E8E80032AEDB /* Main.storyboard in Resources */,
-				1C17AECC23B7E38C00294706 /* gameover.png in Resources */,
 				1C5F979923B526400032AEDB /* GeometryFighter.scnassets in Resources */,
-				1C17AECD23B7E38C00294706 /* progress.png in Resources */,
 				1C17AEA523B782F000294706 /* Explode.scnp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
